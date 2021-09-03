@@ -24,7 +24,8 @@
                 <version>1.9.1</version>
                 <executions>
                     <execution>
-                        <id>timestamp-property</id><goal>
+                        <id>timestamp-property</id>
+                        <goals>
                             <goal>timestamp-property</goal>
                         </goals>
                     </execution>
