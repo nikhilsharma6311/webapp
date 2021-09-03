@@ -16,7 +16,7 @@
     </dependency>
   </dependencies>
   <build>
-        <finalName>ProjectName-${current.time}</finalName>
+        <finalName>${artifactId}-${current.time}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -33,7 +33,7 @@
                 <configuration>
                     <name>current.time</name>
                     <pattern>yyyyMMdd-HHmmss</pattern>
-                    <timeZone>GMT+8</timeZone>
+                    <timeZone>UTC+05:30</timeZone>
                 </configuration>
             </plugin>
         </plugins>
